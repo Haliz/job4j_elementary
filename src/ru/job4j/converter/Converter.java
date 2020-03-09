@@ -31,5 +31,31 @@ public class Converter {
         System.out.println("140 rubles are " + dollar + " dollars");
         System.out.println(" 2 dollars are " + ruFromDollar + " rubles");
 
+        /** Далее тестирование:*/
+
+        /**Для Евро*/
+        int in = 140;
+        int expected = 2;
+        int out = Converter.ruToEu(in);
+        boolean passed = expected == out;
+        System.out.println("140 rubles are 2 EU. Test result : " + passed);
+        /** Рубли из евро*/
+        in = 2;
+        expected = 140;
+        out = Converter.euToRU(in);
+        passed = expected == out;
+        System.out.println("2 EU are 140 rubles. Test result : " + passed);
+        /**Для Бакса*/
+        in = 300;
+        expected = 5;
+        out = Converter.ruToDollar(in);
+        passed = expected == out;
+        System.out.println("300 rubles are 5 $. Test result : " + passed);
+        /** Рубли из бакса*/
+        in = 5;
+        expected = 300;
+        out = Converter.dollarToRu(in);
+        passed = expected == out;
+        System.out.println("5 $ are 300 rubles. Test result : " + passed);
     }
 }
