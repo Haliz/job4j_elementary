@@ -25,4 +25,11 @@ public class MultiMaxTest {
         int result = check.max(1, 4, 7);
         assertThat(result, is(7));
     }
+
+    @Test
+    public void whenSame() {
+        MultiMax check = new MultiMax();
+        int result = check.max(7, 7, 7);
+        assertThat(result, is(7));
+    }
 }
