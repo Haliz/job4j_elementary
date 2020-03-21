@@ -1,5 +1,12 @@
 package ru.job4j.calculator;
 
+/**
+ * Class Класс для вычисления арифметических действий + - * /
+ * @author Igor Khalizev (foril2n1@rambler.ru)
+ * @since 07.03.2020
+ * @version 1
+ */
+
 public class Calculator {
     public static void main(String[] args) {
             int one = 1;
