@@ -11,10 +11,6 @@ public class Calculator {
         /**
          * Main
          * @param args - one two four five six
-         * @param args - two
-         * @param args - four
-         * @param args - five
-         * @param args - six
          */
     public static void main(String[] args) {
             int one = 1;
