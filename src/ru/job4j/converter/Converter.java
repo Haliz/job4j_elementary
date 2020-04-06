@@ -22,10 +22,10 @@ public class Converter {
         return rsl;
     }
     public static void main(String[] args){
-        int euro = Converter.ruToEu(140); // Вызов Рубли в Евро
-        int dollar = Converter.ruToDollar(140); // Вызов Рубли в Баксы
-        int ruFromEuro = Converter.euToRU(2);// Вызов Евро в Руби
-        int ruFromDollar = Converter.dollarToRu(2); // Вызов Баксы в Рубли
+        int euro = Converter.ruToEu(140);
+        int dollar = Converter.ruToDollar(140);
+        int ruFromEuro = Converter.euToRU(2);
+        int ruFromDollar = Converter.dollarToRu(2);
         System.out.println("140 rubles are "+ euro + " euro");
         System.out.println(" 2 euro are " + ruFromEuro + " rubles");
         System.out.println("140 rubles are " + dollar + " dollars");
