@@ -18,9 +18,9 @@ public class Triangle {
 
     public double area() {
         double rsl = -1;
-        double sideA = first.distance(second);
-        double sideB = first.distance(third);
-        double sideC = second.distance(third);
+        double sideA = first.distance3D(second);
+        double sideB = first.distance3D(third);
+        double sideC = second.distance3D(third);
         double p = period(sideA, sideB, sideC);
         if (exist(sideA, sideB, sideC)) {
             rsl = Math.sqrt(p*(p-sideA)*(p-sideB)*(p-sideC));
