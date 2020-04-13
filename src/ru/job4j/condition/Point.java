@@ -15,7 +15,7 @@ public class Point {
     public Point(int first, int second, int third) {
         this.x = first;
         this.y = second;
-        this.y = third;
+        this.z = third;
     }
 
     public double distance3D(Point that) {
